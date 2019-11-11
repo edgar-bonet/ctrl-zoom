@@ -1,0 +1,7 @@
+# Compiled firmware.
+firmware/ctrl-zoom.elf
+
+# Cache and backups from KiCad.
+board/fp-info-cache
+board/ctrl-zoom.bak
+board/ctrl-zoom.kicad_pcb-bak
