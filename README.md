@@ -3,7 +3,7 @@
 This project is a circuit board intended to control a DC motor from a
 “zoom controller” wired remote conforming to the Sony's LANC protocol.
 
-![3D rendering of the board](doc/board-rendering.png)
+![PCB assembly](doc/pcb-assembly.jpg)
 
 ## Motivation
 
