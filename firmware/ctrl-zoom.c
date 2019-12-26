@@ -41,7 +41,7 @@
 
 /* Available motor speeds. */
 static __flash const uint8_t speeds[8] = {
-    2, 4, 8, 16, 32, 64, 128, 255
+    64, 78, 95, 116, 141, 172, 209, 255
 };
 
 uint8_t byte_cnt, bit_cnt;  /* byte and bit counters, could be fused */
