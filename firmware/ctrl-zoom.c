@@ -142,7 +142,8 @@ int main(void)
     /* Configure Timer 1 for PWM on PIN_EN = PB4 = OC1B */
     GTCCR = _BV(PWM1B)    /* enable PWM on OC1B */
           | _BV(COM1B1);  /* non-inverting, nOC1B not connected */
-    TCCR1 = _BV(CS10);    /* clock @ F_CPU */
+    TCCR1 = _BV(CS11)     /* clock @ F_CPU/32 = 250 kZ -> ~ 1 kHz */
+          | _BV(CS12);
 
     init_usi_lanc();
     sei();
