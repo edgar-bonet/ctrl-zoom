@@ -104,8 +104,8 @@ the ISP header (J4) on the board, paying attention to the orientation
 make upload
 ```
 
-[KiCad]: http://www.kicad-pcb.org/
-[KiCad-download]: http://www.kicad-pcb.org/download/
+[KiCad]: http://www.kicad.org/
+[KiCad-download]: http://www.kicad.org/download/
 [ArduinoISP]: https://www.arduino.cc/en/Tutorial/ArduinoISP
 
 ## Usage
